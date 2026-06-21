@@ -1,0 +1,91 @@
+{
+  "numeric_features": {
+    "cgpa": {
+      "min": 5.0,
+      "max": 10.0,
+      "step": 0.01,
+      "default": 7.5,
+      "label": "CGPA"
+    },
+    "ssc_percentage": {
+      "min": 40,
+      "max": 100,
+      "step": 0.5,
+      "default": 80,
+      "label": "SSC %"
+    },
+    "hsc_percentage": {
+      "min": 40,
+      "max": 100,
+      "step": 0.5,
+      "default": 78,
+      "label": "HSC %"
+    },
+    "internships": {
+      "min": 0,
+      "max": 5,
+      "step": 1,
+      "default": 1,
+      "label": "Internships"
+    },
+    "projects": {
+      "min": 0,
+      "max": 8,
+      "step": 1,
+      "default": 2,
+      "label": "Projects"
+    },
+    "certifications": {
+      "min": 0,
+      "max": 6,
+      "step": 1,
+      "default": 1,
+      "label": "Certifications"
+    },
+    "dsa_score": {
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 60,
+      "label": "DSA / Coding Test Score"
+    },
+    "communication_score": {
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 65,
+      "label": "Communication Score"
+    },
+    "backlogs": {
+      "min": 0,
+      "max": 5,
+      "step": 1,
+      "default": 0,
+      "label": "Active Backlogs"
+    },
+    "extra_curricular": {
+      "min": 0,
+      "max": 1,
+      "step": 1,
+      "default": 0,
+      "label": "Extra-curricular Active (0/1)"
+    }
+  },
+  "categorical_features": {
+    "branch": [
+      "CSE",
+      "Civil",
+      "ECE",
+      "IT",
+      "MCA",
+      "Mech"
+    ],
+    "specialization": [
+      "AI/ML",
+      "Cloud/DevOps",
+      "Core/Other",
+      "Data Science",
+      "Web Dev"
+    ]
+  }
+}

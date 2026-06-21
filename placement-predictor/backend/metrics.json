@@ -1,0 +1,172 @@
+{
+  "model_name": "LogisticRegression",
+  "accuracy": 0.7667,
+  "precision": 0.7847,
+  "recall": 0.7434,
+  "f1_score": 0.7635,
+  "roc_auc": 0.8544,
+  "cv_comparison": {
+    "LogisticRegression": {
+      "mean_auc": 0.8026,
+      "std_auc": 0.0224
+    },
+    "RandomForest": {
+      "mean_auc": 0.7798,
+      "std_auc": 0.0227
+    },
+    "GradientBoosting": {
+      "mean_auc": 0.7596,
+      "std_auc": 0.0188
+    }
+  },
+  "confusion_matrix": {
+    "tn": 117,
+    "fp": 31,
+    "fn": 39,
+    "tp": 113
+  },
+  "roc_curve": {
+    "fpr": [
+      0.0,
+      0.0068,
+      0.0135,
+      0.027,
+      0.0405,
+      0.0473,
+      0.0608,
+      0.0878,
+      0.0946,
+      0.1081,
+      0.1284,
+      0.1351,
+      0.1554,
+      0.1689,
+      0.1757,
+      0.1892,
+      0.223,
+      0.2365,
+      0.2568,
+      0.277,
+      0.3108,
+      0.3311,
+      0.3716,
+      0.4392,
+      0.5135,
+      0.5473,
+      0.5608,
+      0.6554,
+      0.8784,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0987,
+      0.1711,
+      0.3289,
+      0.3421,
+      0.4539,
+      0.5395,
+      0.5461,
+      0.5855,
+      0.6053,
+      0.6118,
+      0.6382,
+      0.6513,
+      0.7039,
+      0.7303,
+      0.7434,
+      0.7829,
+      0.7961,
+      0.8092,
+      0.8355,
+      0.8487,
+      0.8684,
+      0.875,
+      0.9145,
+      0.9474,
+      0.9539,
+      0.9671,
+      0.9803,
+      0.9868,
+      1.0
+    ]
+  },
+  "feature_importance": [
+    {
+      "feature": "cgpa",
+      "importance": 0.8100116921419528
+    },
+    {
+      "feature": "dsa_score",
+      "importance": 0.65285938409611
+    },
+    {
+      "feature": "internships",
+      "importance": 0.5944302643426558
+    },
+    {
+      "feature": "backlogs",
+      "importance": 0.5417570974121231
+    },
+    {
+      "feature": "branch_MCA",
+      "importance": 0.3911219166061489
+    },
+    {
+      "feature": "certifications",
+      "importance": 0.34438660076409516
+    },
+    {
+      "feature": "communication_score",
+      "importance": 0.3351380565686007
+    },
+    {
+      "feature": "projects",
+      "importance": 0.3336613582351245
+    },
+    {
+      "feature": "extra_curricular",
+      "importance": 0.2818658230003933
+    },
+    {
+      "feature": "specialization_Web Dev",
+      "importance": 0.2641801015641255
+    },
+    {
+      "feature": "branch_Civil",
+      "importance": 0.25976766127713136
+    },
+    {
+      "feature": "branch_IT",
+      "importance": 0.2068306879772541
+    },
+    {
+      "feature": "specialization_Core/Other",
+      "importance": 0.19801466493949646
+    },
+    {
+      "feature": "branch_ECE",
+      "importance": 0.11039380734778637
+    },
+    {
+      "feature": "hsc_percentage",
+      "importance": 0.10905171308324106
+    },
+    {
+      "feature": "branch_Mech",
+      "importance": 0.09553255830720213
+    },
+    {
+      "feature": "ssc_percentage",
+      "importance": 0.0725559495000283
+    },
+    {
+      "feature": "specialization_Data Science",
+      "importance": 0.0593639087303237
+    },
+    {
+      "feature": "specialization_Cloud/DevOps",
+      "importance": 0.003864209353788209
+    }
+  ]
+}
