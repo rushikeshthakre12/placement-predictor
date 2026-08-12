@@ -1,4 +1,4 @@
-# Placement Predictor
+# Placement Predictor 
 
 A full-stack ML project that predicts a student's campus placement probability from their academic record, experience, and assessment scores — with a clean, evaluation-transparent web UI.
 
